@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: darkgray;
+}
+
+.calendar-container{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.4s ease 0.1s;
+}
+
+.calendar-container:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.month-name{
+    margin: 0;
+    background-color: #5E5E5E;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.day-name{
+    font-size: 20px;
+    color: darkgray;
+}
+
+.day-number{
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.year{
+    margin: 20px 0;
+    font-weight: 20px;
+    color: darkgray;
+    font-weight: 500;
+}
+
+.hour{
+    color: white;
+    background-color: #007AFF;
+    margin: 0;
+    padding: 10px;
+}
